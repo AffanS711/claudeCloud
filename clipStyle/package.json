@@ -1,0 +1,11 @@
+{
+  "name": "muse-clipstyle",
+  "private": true,
+  "description": "Muse clip-art motion graphics: code-rendered films and soundtracks",
+  "scripts": {
+    "render:motion": "PAGE=index6.html FPS=60 OUT=out-motion.mp4 node render.js video",
+    "render:sam": "PAGE=index7.html FPS=30 OUT=out-sam.mp4 node render.js video",
+    "render:sam-brand": "PAGE=index8.html FPS=30 OUT=out-sam-brand.mp4 node render.js video"
+  },
+  "dependencies": { "ffmpeg-static": "^5.2.0", "playwright": "^1.47.0" }
+}
